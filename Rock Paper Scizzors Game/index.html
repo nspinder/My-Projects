@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock, Paper, Scissors</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link href="index.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+       <div class="container-fluid">
+           <h1>Let's Play Rock, Paper, Scissors!</h1>
+           <div class="container">
+               <div id="timer">
+                   <h1><span id="timer"></span></h1>
+               </div>
+               <div class="winbox">
+                   <h1 id="youwin">You Win!</h1>
+               </div>
+               <div class="losebox">
+                   <h1>You Lose!</h1>
+                   <h3>Try Again!</h3>
+               </div>
+               <div class="tiegame">
+                   <h1>You Tied!</h1>
+                   <h3>Try Again!</h3>
+               </div>
+               <div class="choices">
+                   <img id="rock" src="images/rock.png">
+                   <img id="paper" src="images/paper.png">
+                   <img id="scissors" src="images/scissors.png">
+               </div>
+               <div class="myChoice"></div>
+           </div>
+           <div class="buttons">
+               <button id="start" class="btn btn-default">Start Game</button>
+               <button id="restart" class="btn btn-default">Restart Game</button>
+           </div>
+           <div class="scorebox">
+               <h1 class="score">Score:<span id="score">0</span></h1>
+           </div> 
+       </div> 
+        
+        
+        
+        
+        <script src="index.js">
+            
+        </script>
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </body>
+</html>

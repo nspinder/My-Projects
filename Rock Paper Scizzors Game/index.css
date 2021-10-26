@@ -1,0 +1,68 @@
+.container-fluid{
+    width:600px;
+    height:700px;
+    text-align:center;
+    border:1em solid blue;
+    margin-left:400px;
+}
+.container{
+    width:500px;
+    height:300px;
+    border:.25em solid black;
+    margin-left:35px;
+    text-align:center;
+    font-size:50px;
+}
+.scorebox{
+    background-color:yellow;
+    width:150px;
+    margin-left:440px;
+}
+.winbox{
+    width:100px;
+    height:100px;
+    font-size:16px;
+    background-color:green;
+    text-align:center;
+    margin:40px 20px 40px 140px;
+}
+
+.losebox{
+    width:100px;
+    height:100px;
+    font-size:16px;
+    background-color:red;
+    margin:40px 20px 40px 140px;
+    text-align:center;
+}
+.tiegame{
+    width:100px;
+    height:100px;
+    font-size:16px;
+    background-color:orange;
+    margin:40px 20px 40px 140px;
+    text-align:center;
+}
+.choices{
+    position:absolute;
+}
+#rock{
+    width:100px;
+    position:relative;
+    margin-top:180px;
+    margin-left:40px;
+    cursor:pointer;
+}
+#paper{
+    width:100px;
+    position:relative;
+    margin-left:60px;
+    margin-bottom:130px;
+    cursor:pointer;
+}
+#scissors{
+    width:100px;
+    position:relative;
+    margin-right:20px;
+    cursor:pointer;
+}
